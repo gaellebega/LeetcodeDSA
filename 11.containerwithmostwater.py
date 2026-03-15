@@ -1,4 +1,4 @@
-def maxArea(self, height: List[int]) -> int:
+def maxArea( height):
   # BRUTE FORCE
   response=0
   for l in range(len(height)):
@@ -8,6 +8,7 @@ def maxArea(self, height: List[int]) -> int:
       w=r-l
       h=min(height[r],height[l])
       area=w*h
-      res=max(res,area)
-  return res   
-      
+      response=max(response,area)
+  return response
+print(maxArea([1,8,6,2,5,4,8,3,7]))      
+print(maxArea([1,1]))
