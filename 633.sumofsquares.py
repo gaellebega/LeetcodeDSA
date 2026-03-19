@@ -4,12 +4,12 @@ def judgeSquareSum(self, c: int) -> bool:
   # they could be the same
   # what if a,b all equal to 0
 
-  for a in range(0,sqrt(c)+1):
-    for b in range(0,sqrt(c) +1):
+  for a in range(0,int(sqrt(c)+1)):
+    for b in range(0,int(sqrt(c) +1)):
       # Brute false solution
       if a<=c and b<=c:
         asq=a*a
         bsq=b*b
         if asq+bsq==c:
-        return True
+         return True
   return False
