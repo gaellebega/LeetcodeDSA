@@ -3,7 +3,7 @@
 import math
 def judgeSum(c):
   squareroot=set()
-  for i in range(0,int(sqrt(c))):
+  for i in range(0,int(math.sqrt(c))):
     squareroot.add(i*i)
 
     # instead of making the squareroot of a and make the 
