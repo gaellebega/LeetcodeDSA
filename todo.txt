@@ -1,0 +1,2 @@
+length of longest word
+reverse word in a string
