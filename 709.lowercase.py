@@ -1,5 +1,6 @@
-def toLowerCase(self, s: str) -> str:
+def toLowerCase(s) -> str:
   for ch in s:
     if ch.islower():
       s=s.lower()
-  return s    
+  return s
+print(toLowerCase("MUKAmana"))
