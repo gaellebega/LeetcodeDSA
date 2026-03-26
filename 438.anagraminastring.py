@@ -1,6 +1,6 @@
 from collections import Counter
 class Solution:
-    def findAnagrams(self, s: str, p: str) -> List[int]:
+    def findAnagrams(s, p):
         result=[]
         k=len(p)
         p_counter=Counter(p)
