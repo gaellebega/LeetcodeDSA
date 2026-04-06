@@ -7,5 +7,6 @@ def differenceOfSum(nums):
       digitsum+=int(digit)
 
   difference=abs(digitsum-elementsum)
-  return difference    
+  return difference  
+print(differenceOfSum([1,15,6,3]))  
 
