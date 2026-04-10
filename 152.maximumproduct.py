@@ -6,5 +6,5 @@ class Solution:
         for i in range(1,len(nums)-1):
             product=nums[i]*nums[i+1]
             maximum=max(product,maximum)
-        return maximum    
+        return maximum   
         
